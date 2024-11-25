@@ -1,0 +1,177 @@
+body {
+    background-color: #dfeff0;
+    text-align: center;
+}
+
+.southDishes,.eastDishes,.westDishes,.northDishes {
+    width: 260px;
+    height: 220px;
+}
+
+div {
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    width: 260px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 20px 20px 20px gray ;
+}
+
+p{
+    text-align: justify;
+    margin: 0;
+}
+
+h2{
+    margin: auto;
+    margin-top: 20px;
+    width: fit-content;
+    background-color: rgb(46, 46, 46);
+    padding: 0 15px 0 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+iframe{
+    margin: 10px;
+    margin-bottom: 50px;
+    border: 3px solid black;
+}
+
+nav{
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px 0 10px 0;
+}
+.navigation a{
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+
+a:hover{
+    background-color:chocolate;
+    color: white;
+}
+
+a:link{
+    color:red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    background-color: goldenred;
+    color:black;
+}
+
+h1::first-letter {
+    color: #cb2f2f;
+    font-size: 3.5rem;
+}
+
+p::first-letter{
+    color: white;
+    font-size: 2rem;
+}
+
+p::selection{
+    background-color: seagreen;
+    color:#0a0a0a
+}
+#southIndianDishes::after{
+    content: "👩‍🍳";
+}
+#eastthIndianDishes::after {
+    content: "👨‍🍳";
+}
+#westIndianDishes::after{
+    content: "👩‍🍳";
+}
+#northIndianDishes::after {
+    content: "👨‍🍳";
+}
+.previewIframes::after{
+    content: "💻";
+    margin: 10px;
+}
+
+
+.south{
+    background-image: linear-gradient(to right, gold , white);
+}
+
+.east{
+    background-image: linear-gradient(to right, red , white);
+}
+
+.west{
+    background-image: linear-gradient(to right, rgb(255, 146, 164) , white);
+}
+
+.north{
+    background-image: linear-gradient(to right, orange , white);
+}
+
+/* south indina */
+
+#dosaPic:hover{
+    filter: opacity(0.8) contrast(50%);
+}
+
+#biryaniPic:hover{
+    filter: opacity(0.6) contrast(50%);
+}
+
+#availPic:hover{ 
+    filter: opacity(1) contrast(50%);    
+}
+
+/* east indian */
+
+#macherPic:hover{
+    filter: blur(1px);
+}
+
+#pakhalaPic:hover{
+    filter: sepia(100%);
+}
+
+#momosPic:hover{
+    filter: opacity(30%);
+}
+
+/* west indian */
+
+#pavBhajiPic:hover{
+    filter:hue-rotate(160deg)
+
+}
+#doklaPic:hover{
+    filter: drop-shadow(10px 10px 10px gray);  
+}
+#goanFishPic:hover{
+    filter: none;
+    
+}
+
+/* north indian */
+
+
+#chickenPic:hover{
+    filter: drop-shadow(10px 10px 10px gray);
+
+}
+#puriPic:hover{
+    filter: brightness(150%);
+
+}
+#muttonPic:hover{
+    filter: contrast(300%);
+}
